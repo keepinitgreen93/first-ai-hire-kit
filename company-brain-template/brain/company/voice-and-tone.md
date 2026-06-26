@@ -5,6 +5,8 @@ created: YYYY-MM-DD
 last_updated: YYYY-MM-DD
 status: stub
 related: ["[[Company Overview]]", "[[Ideal Customer]]"]
+sources: []
+aliases: ["brand voice", "tone", "anti-slop rules"]
 tags: [company, voice, anti-slop]
 ---
 
@@ -33,7 +35,7 @@ tags: [company, voice, anti-slop]
 
 ## Examples in our voice
 
-{Paste 1–2 short things the owner actually wrote or said, as voice references.}
+{Paste 1-2 short things the owner actually wrote or said, as voice references.}
 
 ## See Also
 

@@ -5,6 +5,8 @@ created: YYYY-MM-DD
 last_updated: YYYY-MM-DD
 status: stub
 related: ["[[Ideal Customer]]", "[[Products & Services]]", "[[Voice & Tone]]"]
+sources: []
+aliases: ["about", "the business"]
 tags: [company]
 ---
 

@@ -17,7 +17,7 @@ Three layers:
 
 Two dimensions within `brain/`:
 
-- **Knowledge** (`products/`, `systems/`, `teams/`, `people/`, `clients/`, `strategy/`, `processes/`, `concepts/`, `events/`, `meetings/`, `tools/`, `competitors/`, `domains/`, and any others that emerge) — What exists.
+- **Knowledge** (`company/`, `products/`, `systems/`, `teams/`, `people/`, `clients/`, `strategy/`, `processes/`, `concepts/`, `events/`, `meetings/`, `tools/`, `competitors/`, `domains/`, and any others that emerge) — What exists. `company/` is the home base: the core pages that describe the business itself (overview, ideal customer, products and services, voice, proof, goals, the AI employee). When the brain is bootstrapped from the AI First Hire Kit, `company/` is seeded first and everything else grows around it.
 - **Work** (`work/sprints/`, `work/milestones/`, `work/tasks/`, `work/bugs/`, `work/incidents/`, `work/rfcs/`) — What is being done.
 
 ---
@@ -261,6 +261,14 @@ summarize https://example.com/article > raw/sources/articles/YYYY-MM-DD_article-
     _schema.md                       # Self-documented taxonomy (auto-maintained)
 
     # Knowledge dimension — directories emerge from data
+    company/                         # The business itself (seeded by the AI First Hire Kit)
+      overview.md
+      ideal-customer.md
+      products-and-services.md
+      voice-and-tone.md
+      proof.md
+      goals.md
+      your-ai-employee.md
     products/{product-name}/
       overview.md
       features/{feature}.md
@@ -296,7 +304,7 @@ summarize https://example.com/article > raw/sources/articles/YYYY-MM-DD_article-
       rfcs/{YYYY-MM-DD}_{slug}.md
 ```
 
-**Directories emerge from data.** Do not pre-create directories. When ingesting a source about a person, create `people/` if it doesn't exist. When ingesting a product spec, create `products/{name}/` if it doesn't exist. Create new directories freely when a type doesn't fit existing ones.
+**Directories emerge from data.** Do not pre-create directories. When ingesting a source about a person, create `people/` if it doesn't exist. When ingesting a product spec, create `products/{name}/` if it doesn't exist. Create new directories freely when a type doesn't fit existing ones. The one exception is `company/`: it ships pre-seeded from the AI First Hire Kit template, because every brain needs a home base for the business itself.
 
 ---
 
@@ -320,7 +328,7 @@ The index is for discovery. Backlinks are for importance ranking. Wikilinks are 
 ```yaml
 ---
 title: Page Title
-type: product | system | team | person | client | process | concept | decision | tool | meeting | event | task | bug | sprint | milestone | incident | rfc
+type: company | product | system | team | person | client | process | concept | decision | tool | meeting | event | task | bug | sprint | milestone | incident | rfc
 created: YYYY-MM-DD
 last_updated: YYYY-MM-DD
 status: active | archived | stub | deprecated | draft
@@ -517,6 +525,8 @@ Last rebuilt: {today}
 
 {Empty — work items will appear here as they are created}
 ```
+
+When the brain is bootstrapped from the AI First Hire Kit, the `company/` pages already exist on disk before the first rebuild. In that case `/brain rebuild-index` lists them under `## Knowledge` like any other category (see `rebuild-index` below) — the index stays auto-generated, never hand-edited.
 
 ### Starter `_manifest.json`
 
@@ -770,7 +780,7 @@ Scan all `.md` files in `brain/` (excluding system files starting with `_`). For
 - **{Title}** (also: {aliases}) — {one-line summary} — `{path}`
 ```
 
-Organize by top-level directory. Include page count per category.
+Organize by top-level directory. Include page count per category. List `company/` first when it exists (it is the business's home base), then the other knowledge directories. Everything goes under `## Knowledge` or `## Work` — do not add other top-level headers.
 
 ### `_backlinks.json`
 
@@ -937,6 +947,7 @@ Write like Wikipedia. Neutral, factual, encyclopedic. State what happened and wh
 
 | Type | Structure |
 |------|-----------|
+| Company | What we do, who we serve, offers, voice, proof, goals, current stage. One page per facet under `company/`. |
 | Product | Overview, architecture, key features, status, team |
 | System | Purpose, components, dependencies, operational notes |
 | Person | Role, expertise, contributions, team context |
@@ -956,6 +967,7 @@ Write like Wikipedia. Neutral, factual, encyclopedic. State what happened and wh
 
 | Type | Lines |
 |------|-------|
+| Company page (each facet) | 15-60 |
 | Product overview | 40-80 |
 | Feature page | 20-50 |
 | System overview | 30-60 |

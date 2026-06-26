@@ -1,20 +1,22 @@
 # Brain Index
 
-> Master catalog of this business's Company Brain. Your AI employee keeps this up to date.
-> Run `/brain rebuild-index` (from the `/brain` skill) to regenerate.
+Last rebuilt: YYYY-MM-DD
 
-## Company
+> This index is auto-generated. Do not edit manually.
+> Run `/brain rebuild-index` to regenerate.
 
-- **Overview** — who we are, our story, what we do — `company/overview.md`
-- **Ideal Customer** — exactly who we serve and their problem — `company/ideal-customer.md`
-- **Products & Services** — our offers and pricing — `company/products-and-services.md`
-- **Voice & Tone** — how we sound (the anti-slop rules) — `company/voice-and-tone.md`
-- **Proof** — real wins and customer stories — `company/proof.md`
+## Knowledge
 
-## People
+### company
 
-{Pages appear here as they're created — start with the owner.}
+- **Company Overview** (also: about, the business) ... who we are, our story, what we do ... `company/overview.md`
+- **Goals & Current State** (also: goals, current stage) ... our goal, what we want, and where the business is now ... `company/goals.md`
+- **Ideal Customer** (also: ICP, best-fit buyer) ... exactly who we serve and their problem ... `company/ideal-customer.md`
+- **Products & Services** (also: offers, core offer) ... our offers and the core offer's name ... `company/products-and-services.md`
+- **Voice & Tone** (also: brand voice, anti-slop rules) ... how we sound ... `company/voice-and-tone.md`
+- **Proof** (also: results, testimonials, wins) ... real wins and customer stories ... `company/proof.md`
+- **Your AI Employee** (also: chief of staff, the hire) ... your AI employee's name and how it works ... `company/your-ai-employee.md`
 
-## Offers
+## Work
 
-{Add a page here when an individual offer needs its own detail.}
+{Empty ... work items will appear here as they are created}

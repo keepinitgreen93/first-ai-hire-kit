@@ -5,6 +5,8 @@ created: YYYY-MM-DD
 last_updated: YYYY-MM-DD
 status: stub
 related: ["[[Products & Services]]", "[[Ideal Customer]]"]
+sources: []
+aliases: ["results", "testimonials", "wins", "credentials"]
 tags: [company, proof]
 ---
 
@@ -14,11 +16,15 @@ tags: [company, proof]
 
 ## Results & wins
 
-- {Customer / situation → what changed → number or outcome.}
+- {Customer / situation ... what changed ... number or outcome.}
 
 ## Customer stories
 
 - {Short story in the customer's words, if the owner has a quote.}
+
+## Credentials & numbers (public-safe)
+
+- {Reviews, certifications, years in business, or counts the owner is allowed to point to. Note which are public-safe.}
 
 ## See Also
 

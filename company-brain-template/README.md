@@ -4,18 +4,18 @@ This is your business's memory. Your AI employee reads from here before it does 
 
 ## How it's organized
 
-- **`brain/`** — what your AI employee knows (it writes and maintains this).
-  - `company/` — the core: who you are, who you serve, your offers, your voice, your proof.
-  - `people/` — you, your team, key contacts.
-  - `offers/` — a page per offer when one needs detail.
-- **`raw/`** — original source material (transcripts, docs, exports) before it's absorbed.
+- **`brain/`** ... what your AI employee knows (it writes and maintains this).
+  - `company/` ... the core: who you are, your goals and stage, who you serve, your offers, your voice, your proof, and your AI employee's name.
+  - `people/` ... you, your team, key contacts.
+  - `products/` ... a page per offer when one needs its own detail.
+- **`raw/`** ... original source material (transcripts, docs, exports) before it's absorbed.
 
 ## See it in Obsidian (recommended)
 
 1. Download **[Obsidian](https://obsidian.md)** (free).
-2. *Open folder as vault* → pick this `Company Brain` folder.
+2. *Open folder as vault* ... pick this `Company Brain` folder.
 3. Open the **graph view** to see your business as a connected map.
 
-You don't edit much by hand — your AI employee maintains the brain for you. Obsidian is just the window into it.
+You don't edit much by hand ... your AI employee maintains the brain for you. Obsidian is just the window into it.
 
 *Powered by TAMI.*
