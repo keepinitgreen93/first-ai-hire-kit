@@ -47,8 +47,9 @@ You may not have all of these on Day 1 ... they come online across the week. Rea
 
 - **Web research (e.g. Firecrawl)** ... read the owner's site and competitors to fill gaps and confirm what they told you. (Day 1.)
 - **Deep customer research (the `dream-customer-avatar` skill)** ... build a data-driven Dream Customer Avatar from real voice-of-customer research, using Perplexity and Firecrawl. Saves back into `company/ideal-customer.md`. (Day 2 ... see `TOOLS-SETUP.md`.)
-- **Composio** ... the connector that gives you hands into the owner's apps, including your research tools. (Day 2.)
-- **Product Champ / GoHighLevel** ... where content publishes and leads are captured, followed up, and booked. (Days 2, 5.)
+- **Composio** ... the hub that gives the owner's research tools (Firecrawl, Perplexity) to you. (Day 2.)
+- **Product Champ / GoHighLevel** ... where content publishes and leads are captured, followed up, and booked. Connected via the GHL MCP plugged straight into your agent (Composio can't host custom MCPs). (Days 2, 5.)
+- **Product Champ workflows (the `product-champ-workflows` skill)** ... generate ready-to-paste prompts for Product Champ's AI Workflow Builder, like the keyword comment→DM automation. (Day 2.)
 - **Google Business Profile tools** ... get the owner found locally and by AI search. (Day 3.)
 - **Image creation (GPT Image 2 via FAL)** ... images for content. (Day 4.)
 

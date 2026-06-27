@@ -12,7 +12,7 @@ Your AI employee gets a lot smarter when it can reach out to the web ... read yo
 
 - **Get Composio 👉 https://composio.dev**
 
-It's the same hub you'll use on Day 2 to wire up **Product Champ / GoHighLevel** too ... so everything your AI employee can do lives in one place.
+*(Your **Product Champ** connection is separate ... Composio can't host custom connectors, so that one plugs straight into Hermes. See "Connect Product Champ" below.)*
 
 ---
 
@@ -37,6 +37,18 @@ Your AI employee uses **Perplexity first, then Firecrawl** (and falls back to wh
 4. That's it ... your AI employee can now research the web.
 
 *The Day 2 video shows the exact screens. Don't worry about getting it perfect alone.*
+
+---
+
+## Connect Product Champ (your CRM)
+
+Your **Product Champ** connection works a little differently. Composio can't host custom connectors, so this one plugs **straight into Hermes** as an MCP server:
+
+1. Get your own copy of the **GHL connector** 👉 https://github.com/keepinitgreen93/Go-High-Level-MCP-2026-Complete (click **Fork**, or **Download ZIP**).
+2. In Product Champ, create a **Private Integration Token** and copy your **Location ID**.
+3. Add the connector to **Hermes as an MCP server**, and put your **token + Location ID** in its `.env`. That points it at *your* account only.
+
+Now your AI employee can post, tag, message, and manage leads in your Product Champ. *(The Day 2 video walks every click.)*
 
 ---
 
