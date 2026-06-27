@@ -42,6 +42,8 @@ Show the owner the finished prompt and say: *"Copy this, open Product Champ → 
 
 ## Recipe 2: Review Request (Google reviews)
 
+> Note: in the Local Authority Hero account this workflow ships **pre-loaded** ... most owners just turn it on and add their Google review link. Use this recipe to **customize** it (timing, message, gating) or to build one where it is missing.
+
 **What it does:** after a job or appointment is done, it automatically asks the customer for a review, routes happy ones to Google, and quietly catches unhappy ones in private first.
 
 **Ask the owner (or pull from the brain):**
