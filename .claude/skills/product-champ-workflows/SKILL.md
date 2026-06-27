@@ -40,6 +40,25 @@ Build a workflow named "[KEYWORD] Comment-to-DM". Trigger: a new comment on my [
 
 Show the owner the finished prompt and say: *"Copy this, open Product Champ → Automation → AI Workflow Builder, paste it, and let it build. Then turn the workflow on. Want me to tweak the keyword, the DM, or the follow-up first?"*
 
+## Recipe 2: Review Request (Google reviews)
+
+**What it does:** after a job or appointment is done, it automatically asks the customer for a review, routes happy ones to Google, and quietly catches unhappy ones in private first.
+
+**Ask the owner (or pull from the brain):**
+
+1. What marks a customer as "served" ... an appointment marked complete, a job done, or a tag you add (e.g. "Served").
+2. Their **Google review link** (from their Google Business Profile ... the "Get more reviews" / "Ask for reviews" link).
+3. How to ask ... text, email, or both.
+4. How long to wait after the job (default: a few hours, same day).
+
+**Then generate this prompt** (about 1,200 characters, fill the brackets):
+
+```
+Build a workflow named "Review Request". Trigger: when a contact's appointment is marked completed [or: when the tag "[SERVED TAG]" is added]. When it triggers, do this in order: 1) Wait [WAIT ... e.g. 3 hours]. 2) Send the customer a friendly [text and/or email] in my voice, thanking them and asking how it went with a simple 1-to-5 question. 3) If they answer 4 or 5 (happy): send my Google review link [GOOGLE REVIEW LINK] and ask them to share a quick review, mentioning what we did for them. 4) If they answer 1 to 3 (unhappy): do NOT send the public link ... apologize, ask what went wrong, and notify me right away so I can make it right. 5) Tag happy reviewers "Promoter" and unhappy ones "Needs Follow-up". 6) If there is no response, send one gentle reminder a day later, then stop. Keep every message short, warm, and human, in my brand voice. Never beg or bribe for reviews.
+```
+
+Tell the owner to paste it into Product Champ → Automation → AI Workflow Builder, build it, then turn it on and test it on themselves first.
+
 ## Other workflows (same method)
 
 The owner may want others (new-lead follow-up, appointment reminders, review requests, win-back, etc.). Use the same shape: ask for the trigger and the actions and their details, then write ONE focused ~1,200-character prompt that names the workflow, states the trigger, and numbers the steps, in their voice. One workflow per prompt.
