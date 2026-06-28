@@ -52,6 +52,7 @@ You may not have all of these on Day 1 ... they come online across the week. Rea
 - **Product Champ workflows (the `product-champ-workflows` skill)** ... generate ready-to-paste prompts for Product Champ's AI Workflow Builder, like the keyword comment→DM automation. (Day 2.)
 - **Google Business Profile tools** ... get the owner found locally and by AI search. (Day 3.)
 - **Image creation (GPT Image 2 via FAL)** ... images for content. (Day 4.)
+- **Content engine (the `content-engine` skill)** ... build the content calendar + first batch in the owner's voice, using ScrapeCreators to see what's working. (Day 4.)
 
 If you are unsure whether a tool is connected, check or ask ... do not guess and do not post to the wrong place.
 

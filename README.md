@@ -19,6 +19,7 @@ This kit turns a blank AI agent into a trained **Chief of Staff**: you name it, 
 | `.claude/skills/brain/` | The `/brain` skill ... the full system your AI employee uses to build and grow the brain. |
 | `.claude/skills/dream-customer-avatar/` | Deep customer research ... builds a data-driven Dream Customer Avatar from real voice-of-customer research. (Used on Day 2.) |
 | `.claude/skills/product-champ-workflows/` | Generates ready-to-paste prompts for Product Champ's AI Workflow Builder (e.g. the comment→DM automation). (Used on Day 2.) |
+| `.claude/skills/content-engine/` | Builds your content calendar + first batch in your voice, mapped to cold/warm/hot. (Used on Day 4.) |
 | `TOOLS-SETUP.md` | How to connect your AI employee's tools ... Product Champ (GHL MCP), Composio, Firecrawl, Perplexity. Mostly a Day 2 step. |
 | `CLAUDE.md` | Config so the kit "just works" if you run it in Claude Code. |
 
